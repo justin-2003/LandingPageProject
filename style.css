@@ -1,0 +1,22 @@
+
+body{
+    background-image: url('backgroundpicture.jpg');
+    background-size: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    background-color: #1F2937;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+a{
+    color: lightblue;
+    text-decoration: none;
+}
