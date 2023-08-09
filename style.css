@@ -5,18 +5,29 @@ body{
 }
 
 header{
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
-    gap: 16px;
     background-color: #1F2937;
     padding: 20px;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    right: 0;
 }
 
 a{
     color: lightblue;
     text-decoration: none;
+}
+
+img{
+    max-width: 20%
+}
+
+.links{
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 100px;
 }
