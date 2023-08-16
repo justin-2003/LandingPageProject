@@ -1,6 +1,6 @@
 
 body{
-    font-color: black;
+   
 }
 
 header{
@@ -12,6 +12,7 @@ header{
     top: 0;
     left: 0;
     right: 0; 
+    height: 400px;
 }
 
 a{
@@ -29,6 +30,7 @@ img{
     justify-content: flex-end;
     align-items: top;
     padding-right: 100px;
+    padding-top: 25px;
 }
 
 .This_website{
@@ -61,3 +63,44 @@ button{
     padding-left: 6px;
     border-radius: 15px;
 }
+
+.some_random_info{
+    font-size:39px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-top: 400px;
+    text-align: center;
+}
+
+#header_logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    padding-left: 10%;
+}
+
+#top{
+    display:flex;
+    justify-content: space-between;
+}
+
+.random_images{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  border-width: 10px;
+  border-color: #3882F6;
+  padding: 30px;
+}
+
+.images{
+    border-width: 2px;
+    border-color: #3882F6;
+    border-style: solid;
+    padding:60px;
+    border-radius: 10px;
+}
+
+figcaption{
+    width: 130px;
+    text-align: center;
+} 
