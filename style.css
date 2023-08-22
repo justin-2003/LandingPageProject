@@ -1,18 +1,16 @@
 
 body{
-   
+   margin: 0%;
 }
 
 header{
     width: 100%;
     background-color: #1F2937;
     padding: 20px;
-    position: fixed;
     top: 0;
     left: 0;
     right: 0;   
     height: 400px;
-    text-align: center;
 }
 
 a{
@@ -70,7 +68,7 @@ img{
  margin: 0%;
 }
 
-button{
+#headerbotton{
     color: white;
     background-color: #3882F6;
     padding-left: 6px;
@@ -87,7 +85,6 @@ button{
     font-size:39px;
     font-weight: bolder;
     color: #1F2937;
-    padding-top: 425px;
     padding-bottom: 10px;
     text-align: center;
 }
@@ -98,6 +95,7 @@ button{
   gap: 60px;
   border-width: 10px;
   border-color: #3882F6;
+  padding-bottom: 45px;
 }
 
 .images{
@@ -113,6 +111,61 @@ figcaption{
     text-align: center;
 } 
 
-p{
+.quote{
+    padding: 100px;
+    text-align: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    font-style: italic;
+}
 
+#quote_name{
+    text-align: right;
+}
+
+.Call_to_action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: solid;
+    border-color: #3882F6;
+    border-radius: 5px;
+    margin: 60px;
+    gap: 60px;
+}
+
+.sign{
+    margin:0%;
+    color: #E5E7EB;
+}
+
+#callTo{
+    margin: 0%;
+    font-weight: bold;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: 0px;
+}
+
+#Signup{
+    margin:0%;
+    padding: 0px;
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+#footer{
+    color: white;
+    background-color: #3882F6;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    margin-top: 6px;
+    border-color: white;
 }
